@@ -5,11 +5,13 @@
   padding-left: 40px;
   /* padding-top: 30px; */
   background-color: blanchedalmond;
-
  font-size:larger;
  font-weight: bold;
+ overflow: auto;
 
-
+justify-content: center;
+align-items: center;
+margin-left: 200px;
 }
 #in2{
   width: 200px;
@@ -36,7 +38,7 @@
   color:white;
 }
 #chek{
-  margin-left: 75px;
+  margin-left: 25px;
   color: red;
   
 }
