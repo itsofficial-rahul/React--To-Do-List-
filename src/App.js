@@ -25,15 +25,11 @@ function App() {
     })
   };
   return (
-    
-     
-   
-     
-        <div id="in1">
-          <div id='h3' >
+    <div id="in1">
+      <div id='h3' >
         <h1>To - Do List </h1>
-        </div>
-    
+      </div>
+       
       <input id="in2" type="text" onChange={addItem} value={data}></input>
       <button id="in3" onClick={() => addI()}>add</button>
       {
@@ -46,7 +42,7 @@ function App() {
         })
       }
     </div>
-    
+
   )
 }
 
